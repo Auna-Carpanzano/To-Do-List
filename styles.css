@@ -5,6 +5,11 @@
   background-color: rgb(236, 240, 241);
 }
 
+h1 {
+  background-color: #3498db;
+  color: white;
+}
+
 .completed {
   color: gray;
   text-decoration: line-through;
