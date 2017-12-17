@@ -35,6 +35,11 @@ li:nth-child(2n){
   background-color: #bdc3c7;
 }
 
+input {
+  font-size: 18px;
+  background-color: #bdc3c7;
+}
+
 .completed {
   color: gray;
   text-decoration: line-through;
