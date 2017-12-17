@@ -15,6 +15,10 @@ h1 {
   font-weight: normal;
 }
 
+ul {
+  list-style: none;
+}
+
 .completed {
   color: gray;
   text-decoration: line-through;
