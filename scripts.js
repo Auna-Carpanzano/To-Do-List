@@ -12,6 +12,7 @@ $("span").click(function(e){
 $("input[type='text']").keypress(function(e){
   if(e.which === 13){
     var inputText= $(this).val();
+    $(this).val("");
     $("ul").append("<li>" + inputText + "</li>");
   }
 });
