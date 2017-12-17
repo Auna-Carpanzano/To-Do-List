@@ -16,3 +16,7 @@ $("input[type='text']").keypress(function(e){
     $("ul").append("<li><span><i class='fa fa-trash'></i></span> " + inputText + "</li>");
   }
 });
+
+$(".fa-plus").click(function(){
+  $("input[type='text']").fadeOut();
+});
