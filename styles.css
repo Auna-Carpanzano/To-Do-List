@@ -3,7 +3,7 @@
 #container {
   width: 360px;
   margin: 100px auto;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
   background-color: #bdc3c7;
   font-family: 'Montserrat', sans-serif;
 }
@@ -38,6 +38,9 @@ li:nth-child(2n){
 input {
   font-size: 18px;
   background-color: #bdc3c7;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
 }
 
 .completed {
