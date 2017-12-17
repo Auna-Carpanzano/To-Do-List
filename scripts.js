@@ -18,5 +18,5 @@ $("input[type='text']").keypress(function(e){
 });
 
 $(".fa-plus").click(function(){
-  $("input[type='text']").fadeOut();
+  $("input[type='text']").fadeToggle();
 });
