@@ -68,5 +68,7 @@ input:focus {
 span {
   background-color: #e74c3c;
   color: white;
+  height: 40px;
+  width: 40px;
 
 }
