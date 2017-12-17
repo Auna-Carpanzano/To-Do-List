@@ -11,6 +11,6 @@ $("span").click(function(e){
 
 $("input[type='text']").keypress(function(e){
   if(e.which === 13){
-  console.log($(this).val());
+  var inputText= $(this).val();
   }
 });
