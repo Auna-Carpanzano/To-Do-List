@@ -1,5 +1,5 @@
 #container {
   width: 360px;
   margin: 0 auto;
-  background-color: aquamarine;
+  border: 2px solid black;
 }
