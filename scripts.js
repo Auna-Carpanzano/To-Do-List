@@ -3,6 +3,8 @@ $("li").click(function () {
 });
 
 $("span").click(function(e){
-  $(this).parent().fadeOut();
+  $(this).parent().fadeOut(500, function(){
+    $(this).remove();
+  });
   e.stopPropagation();
 });
