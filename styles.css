@@ -64,3 +64,9 @@ input:focus {
 .fa-plus {
   float: right;
 }
+
+span {
+  background-color: #e74c3c;
+  color: white;
+
+}
