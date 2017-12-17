@@ -8,3 +8,9 @@ $("span").click(function(e){
   });
   e.stopPropagation();
 });
+
+$("input[type='text']").keypress(function(e){
+  if(e.which === 13){
+  console.log($(this).val());
+  }
+});
