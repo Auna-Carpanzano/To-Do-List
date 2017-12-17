@@ -44,6 +44,12 @@ input {
   box-sizing: border-box;
 }
 
+input:focus {
+  background-color: white;
+  border: 3px solid #3498db;
+  outline: none;
+}
+
 .completed {
   color: gray;
   text-decoration: line-through;
